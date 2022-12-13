@@ -1,0 +1,89 @@
+.main-list{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section-list{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* input div css */
+.back-button{
+  position:absolute;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.back-button:hover{
+  filter: invert(10%);
+}
+.input-div{
+  display: flex;
+  width: 30vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-right: 280px;
+}
+.input{
+  height: 2rem;
+  width: 30rem;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+  font-size: 1rem;
+  
+}
+
+
+
+
+/* list div css */
+.list-div{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: start;
+  padding-top: 30px;
+  gap: 30px;
+  padding-bottom: 30px;
+  
+}
+.task{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 5vh;
+  background-color: white;
+  padding: 0 10px;
+  align-items: center;
+  flex-wrap: nowrap;
+  
+}
+.icones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+.icones img{
+  width: 30px;
+  height: 30px;
+}
+.complete-icon{
+  cursor: pointer;
+}
+.del-icon{
+  cursor: pointer;
+}
+
