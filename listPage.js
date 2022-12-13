@@ -12,6 +12,7 @@ const handleAddTask = () =>{
 
   if(!inputIsValid) {
    return  input.classList.add("error");
+   
   }
 
   const taskItemContainer = document.createElement('div');
