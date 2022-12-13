@@ -18,7 +18,7 @@ function changePortuguese(){
 }
 
 function changeEnglish(){
-  textHeader.textContent = "CHOSE LANGUAGE";
+  textHeader.textContent = "CHOOSE LANGUAGE";
   buttonCreate.textContent = "CREATE LIST";
   textMain.textContent = "Create lists of everything you have to do, optimize your time, and organize your day."
   textFooter.textContent = "DEVELOPED BY R.OLIVEIRA."
