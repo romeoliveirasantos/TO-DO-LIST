@@ -56,7 +56,6 @@
   padding-top: 30px;
   gap: 30px;
   padding-bottom: 30px;
-  
 }
 .task{
   display: flex;
@@ -67,7 +66,6 @@
   padding: 0 10px;
   align-items: center;
   flex-wrap: nowrap;
-  
 }
 .icones{
   display: flex;
@@ -87,3 +85,27 @@
   cursor: pointer;
 }
 
+
+
+/* utilities */
+
+.error{
+  border: 2px solid red !important;
+  
+}
+
+.error::placeholder{
+  color: red;
+}
+
+.deleteIcon{
+  cursor: pointer;
+}
+.completeIcon{
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.task{
+  
+}

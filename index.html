@@ -8,23 +8,32 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="./components/main-header.css">
   <link rel="stylesheet" href="./components/main-section.css">
   <link rel="stylesheet" href="./components/button-create-task.css">
   <link rel="stylesheet" href="./components/footer.css">
   <link rel="stylesheet" href="./components/responsive.css">
   <title>TO-DO List</title>
+  <script src="./index.js" defer></script>
 </head>
 <body>
+  <header>
+    <div class="chose-language">
+      <p class="p-header">ESCOLHA O IDIOMA</p>
+      <img class="portuguese" src="./assets/portuguese.svg" alt="Bandeira do brazil">
+      <img class="english" src="./assets/english.svg" alt="Bandeira dos Estados unidos da américa">
+    </div>
+  </header>
   <main class="main">
     <section class="main-section" id="main-section-responsive">
       <h1 id="h1-responsive">TO-DO LIST</h1>
-      <p>Crie listas de tudo que você tem
+      <p class="p-section-main">Crie listas de tudo que você tem
         a fazer, otimize seu tempo e organize seu dia.</p>
-        <a href="./list.html"><button class="button-createList">CREATE YOUR OWN</button></a>
+        <a href="./list.html"><button class="button-createList">CRIAR LISTA</button></a>
     </section>
   </main>
   <footer class="footer" id="footer-responsive">
-    <p>DEVELOPED BY <a href="https://www.linkedin.com/in/rom%C3%A1rio-oliveira-b9022a1b7/" target="_blank">R.OlIVEIRA</a>.</p>
+    <p class="p-footer">DESENVOLVIDO POR <a href="https://www.linkedin.com/in/rom%C3%A1rio-oliveira-b9022a1b7/" target="_blank">R.OlIVEIRA</a>.</p>
   </footer>
 </body>
 </html>

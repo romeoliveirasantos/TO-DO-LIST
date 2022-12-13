@@ -14,26 +14,20 @@
   <link rel="stylesheet" href="./components/responsive.css">
   <link rel="stylesheet" href="./components/list.css">
   <title>TO-DO List</title>
+  <script src="./listPage.js" defer></script>
+  <script src="https://kit.fontawesome.com/95cca44b72.js" crossorigin="anonymous" defer></script>
 </head>
-<body>
+<body class="body-list">
   <a href="./index.html"><img src="./assets/back-button.svg" alt="" class="back-button"></a>
-  <main class="main-list">
+  <main class="main-list" id="main-list-mq">
     <section class="main-section-list" id="main-section-responsive">
-      <div class="input-div">
-        <input type="text" class="input" placeholder="Estudar programação - 40 minutos" maxlength="70">
-        <button class="button-createList">CREATE LIST</button>
+      <div class="input-div" id="inputDiv-mq">
+        <input type="text" id="input-list-mq" class="input" placeholder="Estudar programação - 40 minutos" maxlength="50">
+        <button class="button-createList" id="createList-mq">CREATE LIST</button>
       </div>
-      <div class="list-div">
+      <div class="list-div" id="divList-mq">
 
-            <div class="task">
-                <p>estudar mais de uma hora por dia durante dois meses</p>
-              <div class="icones">
-                <img class="complete-icon" src="./assets/complete-icon.svg" alt="">
-                <img class="delete-icon" src="./assets/delete-icon.svg" alt="">
-              </div>
-            </div>
-            
-            
+           
         
       </div>
     </section>
