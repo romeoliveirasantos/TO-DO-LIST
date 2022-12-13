@@ -1,0 +1,14 @@
+.button-createList{
+  width: 15rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  background-color: var(--button-color);
+  cursor: pointer;
+  border-radius: .3rem;
+}
+.button-createList:hover{
+  background-color: #4a914d;
+}

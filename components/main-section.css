@@ -1,0 +1,25 @@
+.main{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.main-section{
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px
+}
+
+.main-section h1{
+  font-size: 6rem;
+  color: var(--text-color);
+}
+.main-section p{
+  width: 50vw;
+  text-align: center;
+  font-size: 1.3rem;
+  color: var(--text-color)
+}

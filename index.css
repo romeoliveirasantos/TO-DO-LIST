@@ -1,0 +1,20 @@
+:root{
+  --main-color: #1F0245;
+  --text-color: #FFFC31;
+  --button-color: #006405;
+  --button-color-hover: #4a914d;
+  --font: "Michroma";
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--main-color);
+  font-family: var(--font);
+}
+a{
+  text-decoration: none;
+}
