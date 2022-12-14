@@ -12,14 +12,14 @@ english.addEventListener('click', changeEnglish);
 
 function changePortuguese(){
   textHeader.textContent = "ESCOLHA O IDIOMA";
-  buttonCreate.textContent = "CRIAR LISTA";
+  buttonCreate.textContent = "CRIAR TAREFA";
   textMain.textContent = "Crie listas de tudo que você tem a fazer, otimize seu tempo e organize seu dia."
   textFooter.textContent = "DESENVOLVIDO POR R.OlIVEIRA."
 }
 
 function changeEnglish(){
   textHeader.textContent = "CHOOSE LANGUAGE";
-  buttonCreate.textContent = "CREATE LIST";
+  buttonCreate.textContent = "CREATE TASK";
   textMain.textContent = "Create lists of everything you have to do, optimize your time, and organize your day."
   textFooter.textContent = "DEVELOPED BY R.OLIVEIRA."
 }
