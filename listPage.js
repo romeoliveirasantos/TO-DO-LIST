@@ -50,6 +50,7 @@ const handleAddTask = () =>{
 const handleClick = (taskText) => {
   taskText.style.textDecoration = "line-through"
   taskText.style.color = "green"
+  taskText.style.fontWeight = "bold"
 }
 const handleDeleteClick = (taskItemContainer) => {
   taskItemContainer.remove()
