@@ -11,16 +11,17 @@ const handleAddTask = () =>{
   const inputIsValid = validateInput();
 
   if(!inputIsValid) {
+   input.placeholder = "Você precisa inserir algo neste campo.";
    return  input.classList.add("error");
-   
   }
-
+  input.placeholder = "Estudar programação - 40 minutos";
   const taskItemContainer = document.createElement('div');
   taskItemContainer.classList.add("task")
+  
 
   const taskText = document.createElement('p')
   taskText.innerText = input.value;
-
+  input.value = "";
   
 
   const taskDivIcon = document.createElement('div');
@@ -49,7 +50,6 @@ const handleAddTask = () =>{
 const handleClick = (taskText) => {
   taskText.style.textDecoration = "line-through"
   taskText.style.color = "green"
-  taskItemContainer.style.backgroundColor = "green"
 }
 const handleDeleteClick = (taskItemContainer) => {
   taskItemContainer.remove()
@@ -60,6 +60,7 @@ const handleInputChange = () =>{
   if(inputIsValid) {
     return input.classList.remove("error");
   }
+  
 }
 
 buttonCreateList.addEventListener('click', () => handleAddTask())
